@@ -1,0 +1,11 @@
+.partner {
+    
+    scroll-behavior: auto;
+    width: 90%;
+    position: relative;
+    /* align-items: center;
+    text-align: center; */
+    padding-left: 10%;
+    
+    margin: 20px;
+}

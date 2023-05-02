@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.book-os{
+    width: 100%;
+    /* height: 60rem; */
+    background-color: rgb(244, 239, 241);
+    border: 1px solid rgb(244, 239, 241);
+}
+.book-os-1{
+    width: 50%;
+    display: flex;
+    margin-top: 1rem;
+}
+.book-os-1 img{
+    width: 20px;
+    height: 40px;
+    margin-left: 5rem;
+}
+.book-os-1 h3{
+    font-size: 25px;
+    margin-top: 13px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #79236c;
+    margin-left: 10px;
+}
+.guide-to{
+    width: 85%;
+    height: 2.5rem;
+    border: 1px solid rgb(198, 190, 229);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1.5rem;
+    display: flex;
+}
+.guide-to-1{
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    margin-top: 13px;
+    
+    margin-left: 2rem;
+    width: 9rem;
+    height: 35px;
+    text-align: center;
+    /* border-bottom: 2px solid #f1841b; */
+}
+.guide-to-1 a{
+    text-decoration: none;
+    color: black;
+}
+.guide-to-1:hover{
+    border-bottom: 2px solid #f1841b;
+}
+.guide-to-1:hover a{
+    text-decoration: none;
+    color: black;
+}
+.guide-to-2{
+    border-left: 1px solid black;
+    
+    height: 1.5rem;
+    width: 0;
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+.guide-to-3{
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    margin-top: 13px;
+    
+    margin-left: 2rem;
+    /* width: 9rem; */
+    height: 35px;
+    text-align: center;
+    
+}
+.guide-to-3:hover{
+    border-bottom: 2px solid #f1841b;
+    cursor: pointer;
+}
+.guide-to-4{
+    border-left: 1px solid black;
+    
+    height: 1.5rem;
+    width: 0;
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+.guide-to-5{
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    margin-top: 13px;
+    
+    margin-left: 2rem;
+    width: 9rem;
+    height: 35px;
+    text-align: center;
+    
+}
+.guide-to-5:hover{
+    border-bottom: 2px solid #f1841b;
+    cursor: pointer;
+}
+
+.location-op{
+    height: 11rem;
+    width: 70%;
+    overflow: hidden;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    
+}
+.maldives{
+    height: 9rem;
+    width: 18rem;
+   
+    
+}
+.maldives img{
+    height: 9rem;
+    width: 18rem;
+    position: absolute;
+    transition: .5s;
+}
+.maldives img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.maldives h3{
+    color: white;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 0 0 5px #333;
+    width: 90%;
+    font-family: Verdana, sans-serif;
+    top: 150px;
+    left: 20px;
+    
+    
+}
+
+
+.singapore{
+    height: 9rem;
+    width: 18rem;
+    
+    margin-left: 2rem;
+    
+   
+}
+.singapore img{
+    height: 9rem;
+    width: 18rem;
+    position: absolute;
+    
+    transition: .5s;
+}
+.singapore img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+   
+
+
+.singapore h3{
+    color: white;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 0 0 5px #333;
+    width: 90%;
+    font-family: Verdana, sans-serif;
+    top: 150px;
+    left: 20px;
+    
+    
+}
+.tex-op-2 h3{
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+    font-size: 22px;
+    
+}
+
+.world-od{
+    width: 100%;
+    background-color: black;
+    height: 22rem;
+    display: flex;
+}
+.content-od-1{
+    
+    width: 40%;
+    height: 90%;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.content-od-2{
+     width: 90%;
+
+}
+.content-od-2 h4{
+    text-decoration: underline;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+    color: white;
+
+}
+.content-od-2 h3{
+    
+    font-size: 34px;
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+    color: white;
+    margin-top: 1.5rem;
+
+}
+.content-od-2 p{
+    
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Verdana, sans-serif;
+    color: white;
+    margin-top: 1.5rem;
+
+}
+.content-od-3{
+    margin-top: 2rem;
+    width: 8rem;
+    height: 30px;
+    font-size: 17px;
+    background-color: #f1841b;
+    color: white;
+    border-radius: 20px ;
+    text-align: center;
+    transition: .5s;
+    
+}
+.content-od-3:hover{
+    color: #f1841b;
+    background-color: white;
+    cursor: pointer;
+}
+.banner-img{
+    height: 81%;
+    width: 32%;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+.banner-img img{
+    margin-top: 14px;
+    margin-left: 16px;
+}
+@media  screen and (max-width:767px) {
+    
+    .book-os-1{
+        width: 25rem;
+        margin-top: 15px;
+    }
+    .book-os-1 img{
+        margin-left: 40px;
+    }
+    .book-os-1 h3{
+        font-size: 20px;
+    }
+    .guide-to{
+        width: 35rem;
+    }
+    .location-op{
+        display: block;
+        height: 23rem;
+        width: 34rem;
+    }
+    .maldives{
+        width: 30rem;
+    }
+    .maldives img{
+        width: 30rem;
+    }
+    .singapore{
+        width: 30rem;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .singapore img{
+        width: 30rem;
+        
+    }
+    .world-od{
+        width: 39rem;
+        height: 13rem;
+    }
+    .content-od-1{
+       width: 33rem;
+       margin-left: 20px;
+       margin-top: 25px;
+    }
+    .content-od-2{
+        width: 30rem;
+        
+    }
+    .content-od-2 h4{
+        margin-top: 0px;
+        font-size: 28px !important;
+    }
+    .content-od-2 h3{
+        margin-top: 0px;
+        font-size: 28px;
+        margin-top: 5px;
+    }
+    .content-od-2 p{
+        margin-top: 0px;
+        font-size: 14px;
+        width: 30rem;
+    }
+    .banner-img{
+        display: none;
+    }
+    
+}
+

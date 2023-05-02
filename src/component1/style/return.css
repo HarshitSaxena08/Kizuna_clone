@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-keeper{
+   
+    opacity: 6;
+    
+   
+    width:50rem;
+    height: 70px;
+    margin: auto;
+    display: flex;
+}
+.from-1{
+    width: 19%;
+    
+    height: 68px;
+    border: 1px solid rgb(189, 206, 209);
+    margin-left: 5px;
+    border-radius: 5px;
+    
+}
+.from-1 p{
+    height: 30px;
+    width: 85px;
+    font-size: 14px;
+    
+    padding-top: 10px;
+    margin-left: 10px;
+    color: gray;
+    margin-bottom: 0;
+}
+.from-1 input{
+    outline: none;
+    border: none;
+    width: 8rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: lightgray;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.to-1{
+    width: 19%;
+    height: 68px;
+    border: 1px solid rgb(189, 206, 209);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.to-1 p{
+    height: 30px;
+    width: 85px;
+    font-size: 14px;
+    
+    padding-top: 10px;
+    margin-left: 10px;
+    color: gray;
+    margin-bottom: 0;
+}
+.to-1 input{
+    outline: none;
+    border: none;
+    width: 8rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: lightgray;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.departure-1{
+    width: 19%;
+    height: 68px;
+    border: 1px solid rgb(189, 206, 209);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.departure-1 p{
+    height: 30px;
+    width: 85px;
+    font-size: 14px;
+    
+    padding-top: 10px;
+    margin-left: 10px;
+    color: gray;
+    margin-bottom: 0;
+}
+.departure-1 input{
+    outline: none;
+    border: none;
+    width: 7rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: lightgray;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.return-1{
+    width: 19%;
+    height: 68px;
+    border: 1px solid rgb(189, 206, 209);
+    border-radius: 5px;
+    margin-left: 5px;
+    
+}
+.return-1 p{
+    height: 30px;
+    width: 85px;
+    font-size: 14px;
+    
+    padding-top: 10px;
+    margin-left: 10px;
+    color: gray;
+    margin-bottom: 0;
+}
+.return-1 input{
+    outline: none;
+    border: none;
+    width: 7rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: lightgray;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.passenger-1{
+    width: 19%;
+    height: 68px;
+    border: 1px solid rgb(189, 206, 209);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.passenger-1 p{
+    height: 30px;
+    width: 110px;
+    font-size: 14px;
+    
+    padding-top: 10px;
+    margin-left: 10px;
+    color: gray;
+    margin-bottom: 0;
+}
+.passenger-1 input{
+    outline: none;
+    border: none;
+    width: 7rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: lightgray;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}

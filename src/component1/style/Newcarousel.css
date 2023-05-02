@@ -1,0 +1,182 @@
+* {
+    /* font-size: 14px;
+    color: #4d4d4d; */
+    /* font-family: Verdana, sans-serif; */
+}
+
+.card-title {
+    font-size: 14px;
+    color: #4d4d4d;
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.naam h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+    margin: 20px 120px 15px;
+    color: #79236c;
+    font-weight:700 ;
+}
+
+.card {
+    width: 50%;
+    
+    border: 10px #4d4d4d;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+    /* --bs-card-spacer-y: 1.5rem;
+    --bs-card-spacer-x: 1.5rem; */
+
+}
+.harsh{
+    display: flex;
+    /* float: left; */
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.card-body {
+    background-color: #faefefc1;
+
+}
+.card-body a{
+    text-decoration: none;
+}
+
+.price {
+    text-align: right;
+    /* font-style: bold; */
+    font-size: 14px;
+}
+
+/* .area_button{
+    background: #79236c;
+} */
+.arrow-up {
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    padding-bottom: 7px;
+    margin-left: -13px;
+
+}
+
+.dis {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 12px 0;
+    text-align: center;
+
+    display: block;
+
+    font-size: 13px;
+    color: #fff;
+    width: 100%;
+    background-color: #79236c;
+    text-decoration: none;
+
+}
+
+.view {
+    background-color: #79236c;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+
+    
+    /* position: absolute; */
+    padding-top: 12px;
+    padding-left: 0px;
+}
+
+.view_btn {
+
+
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+
+    width: 100%;
+    padding: 12px 0;
+    background-color: #79236c;
+}
+
+.view:hover {
+    background: #f1841b;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/* .fa fa-chevron-up  {
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    
+} */
+.plane_icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1
+}
+
+.plane_icon .fa {
+    color: #fff;
+    font-size: 19px;
+    transform: rotate(-5deg);
+    text-shadow: 0 3px 5px #7d7d7d
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contain {
+    display: flex;
+
+}
+
+/* .card {
+    background: #fff;
+    margin: 0px 0 20px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden
+    transition: 0.5s;
+} */
+
+.card:hover {
+    transform: translate(0, -10px);
+    box-shadow: 0px 9px 7px #867c7c
+}
+
+
+@media only screen and (max-width: 768px){
+    .harsh{
+        display: grid;
+    }
+    .card{
+        width: 100%;
+    }
+    .naam h2 {
+        font-size: 25px;
+        margin: 15px 70px 15px;
+        color: #79236c;
+        font-weight: 700;
+    }
+}
